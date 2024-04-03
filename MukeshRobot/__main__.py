@@ -87,20 +87,20 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
+        InlineKeyboardButton(text="𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦", callback_data="mukesh_"),
+        InlineKeyboardButton(text="𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦", callback_data="source_"),
+        InlineKeyboardButton(text="𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥⚠️", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧", callback_data="Main_help"),
      ],
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
+            text="𝗔𝗗𝗗 𝗕𝗢𝗧 𝗧𝗢 𝗧𝗛𝗘 𝗚𝗥𝗢𝗨𝗣",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+        InlineKeyboardButton(text="", callback_data="Main_help"),
     ],
     
 
