@@ -489,7 +489,7 @@ dispatcher.add_handler(AIRING_HANDLER)
 # dispatcher.add_handler(KAYO_SEARCH_HANDLER)
 dispatcher.add_handler(UPCOMING_HANDLER)
 
-__mod_name__ = "Aɴɪᴍᴇ"
+__mod_name__ = "Aɴɪᴍᴇinfo"
 __command_list__ = [
     "anime",
     "manga",
