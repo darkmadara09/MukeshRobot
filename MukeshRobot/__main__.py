@@ -402,9 +402,9 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**𝗧𝗼 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗔𝗻𝗶𝗺𝗲 𝗦𝗲𝗿𝗶𝗲𝘀/𝗠𝗼𝘃𝗶𝗲𝘀:**"
+        query.message.edit_caption("**𝗧𝗼 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗔𝗻𝗶𝗺𝗲 𝗦𝗲𝗿𝗶𝗲𝘀/𝗠𝗼𝘃𝗶𝗲𝘀**"
             f"\n\nᴜsᴇ /request ᴛᴏ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ᴀɴɪᴍᴇ.",
-            "\nɪᴛ ᴡɪʟʟ sᴇɴᴅ ᴜs ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴛʜᴀᴛ ᴀɴɪᴍᴇ.",                  
+            f"\n\nɪᴛ ᴡɪʟʟ sᴇɴᴅ ᴜs ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴅ ᴛʜᴀᴛ ᴀɴɪᴍᴇ.",                  
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
