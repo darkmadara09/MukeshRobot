@@ -90,7 +90,7 @@ buttons = [
         InlineKeyboardButton(text="", callback_data="Main_help"),
      ],
     [
-        InlineKeyboardButton(text="𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥⚠️", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥⚠️", callback_data="Music_"),
         InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧", callback_data="Main_help"),
     ],
     [
@@ -447,25 +447,25 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
         query.message.edit_caption(f"""
- ʜᴇʀᴇ ɪꜱ ʜᴇʟᴘ ᴍᴇɴᴜ ꜰᴏʀ {BOT_NAME}
+ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ ᴍᴀᴋᴇ ɪᴛ ᴇᴀsʏ ᴛᴏ ᴅɪsᴄᴏᴠᴇʀ , ʀᴇǫᴜᴇsᴛ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴀɴɪᴍᴇ ᴇғғᴏʀᴛʟᴇssʟʏ.Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ Jᴏɪɴ ᴏᴜʀ ᴀɴɪᴍᴇ ᴅɪsᴄᴜssɪᴏɴ ɢʀᴏᴜᴘ !
 """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎧", callback_data="Music_")
+                        InlineKeyboardButton(text="𝗖𝗥𝗘𝗗𝗜𝗧", url="https://t.me/obito_shadow"),
+                        InlineKeyboardButton(text="𝗗𝗜𝗦𝗖𝗨𝗦𝗦 𝗚𝗥𝗢𝗨𝗣", url="https://t.me/The_sector_7")
                     ],
                     [
-                        InlineKeyboardButton(text="💁 Bᴀsɪᴄ ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="Exᴘᴇʀᴛ 👮", callback_data="expert_help")
+                        InlineKeyboardButton(text="", callback_data="basic_help"),
+                        InlineKeyboardButton(text="", callback_data="expert_help")
                     ],
                     [
-                        InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="Dᴏɴᴀᴛɪᴏɴ 🎉", callback_data="donation_help") 
+                        InlineKeyboardButton(text="", callback_data="advance_help"),
+                        InlineKeyboardButton(text="", url="https://t.me/The_sector_7") 
                     ],
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")]
+                    [InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="mukesh_back")]
                 ]
             ),
         )
@@ -633,36 +633,42 @@ def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
- ʜᴇʀᴇ ɪꜱ ʜᴇʟᴘ ᴍᴇɴᴜ ꜰᴏʀ ᴍᴜꜱɪᴄ 
+𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥 ⚠️
+
+Oᴜʀ ʙᴏᴛ ᴀɴᴅ ᴄʜᴀɴɴᴇʟs ᴀʀᴇ ɴᴏᴛ ᴀғғɪʟɪᴀᴛᴇᴅ ᴡɪᴛʜ ᴀɴʏ ᴀɴɪᴍᴇ sᴛᴜᴅɪᴏs, ʟɪᴄᴇɴsᴏʀs, ᴏʀ ᴅɪsᴛʀɪʙᴜᴛᴏʀs. Wᴇ ᴅᴏ ɴᴏᴛ ᴏᴡɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ᴛʜᴀᴛ ᴡᴇ ᴘʀᴏᴠɪᴅᴇ, ᴀɴᴅ ᴡᴇ ᴅᴏ ɴᴏᴛ ʜᴏsᴛ ᴀɴʏ ғɪʟᴇs ᴏɴ ᴏᴜʀ sᴇʀᴠᴇʀs. Aʟʟ ᴄᴏɴᴛᴇɴᴛ ɪs ᴘʀᴏᴠɪᴅᴇᴅ ᴛʜʀᴏᴜɢʜ ᴛʜɪʀᴅ-ᴘᴀʀᴛʏ sᴏᴜʀᴄᴇs ᴀɴᴅ ɪs ɪɴᴛᴇɴᴅᴇᴅ ғᴏʀ ᴘᴇʀsᴏɴᴀʟ ᴜsᴇ ᴏɴʟʏ.
+
+Wᴇ ᴅᴏ ɴᴏᴛ ᴄᴏɴᴅᴏɴᴇ ᴘɪʀᴀᴄʏ ᴏʀ ɪʟʟᴇɢᴀʟ ᴅɪsᴛʀɪʙᴜᴛɪᴏɴ ᴏғ ᴄᴏᴘʏʀɪɢʜᴛᴇᴅ ᴍᴀᴛᴇʀɪᴀʟs. As ᴀ ᴜsᴇʀ ᴏғ ᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴄʜᴀɴɴᴇʟs, ɪᴛ ɪs ʏᴏᴜʀ ʀᴇsᴘᴏɴsɪʙɪʟɪᴛʏ ᴛᴏ ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴜsᴇ ᴏғ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ᴄᴏᴍᴘʟɪᴇs ᴡɪᴛʜ ᴀʟʟ ᴀᴘᴘʟɪᴄᴀʙʟᴇ ʟᴀᴡs ᴀɴᴅ ʀᴇɢᴜʟᴀᴛɪᴏɴs. Aᴅᴅɪᴛɪᴏɴᴀʟʟʏ, ᴘʟᴇᴀsᴇ ɴᴏᴛᴇ ᴛʜᴀᴛ ᴡᴇ ᴅᴏ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ Hᴇɴᴛᴀɪ ᴄᴏɴᴛᴇɴᴛ ᴛʜʀᴏᴜɢʜ ᴛʜɪs ʙᴏᴛ, ʀᴇғʀᴀɪɴ ғʀᴏᴍ ʀᴇǫᴜᴇsᴛɪɴɢ ᴛʜᴏsᴇ. 
+
+Bʏ ᴜsɪɴɢ ᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ᴄʜᴀɴɴᴇʟs,Dᴏ ʏᴏᴜ ᴀɢʀᴇᴇ ᴛᴏ ᴛʜᴇsᴇ ᴛᴇʀᴍs ᴀɴᴅ ᴄᴏɴᴅɪᴛɪᴏɴs. 
 """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
+        InlineKeyboardButton(text="𝗗𝗜𝗦𝗔𝗚𝗥𝗘𝗘✖", callback_data="loda"),
+        InlineKeyboardButton(text="𝗜 𝗔𝗚𝗥𝗘𝗘✔", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="", callback_data="source_"),
+        InlineKeyboardButton(text="", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(
-                            text="⍟ ᴀᴅᴍɪɴ ⍟", callback_data="Music_admin"
+                            text="", callback_data="Music_admin"
                         ),
                         InlineKeyboardButton(
-                            text="⍟ ᴘʟᴀʏ ⍟", callback_data="Music_play"
+                            text="", callback_data="Music_play"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
+                        InlineKeyboardButton(text="", callback_data="Music_bot"),
                         InlineKeyboardButton(
-                            text="⍟ ᴇxᴛʀᴀ ⍟",
+                            text="",
                             callback_data="Music_extra",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
+                        InlineKeyboardButton(text="", callback_data="Main_help")
                     ],
                 ]
             ),
